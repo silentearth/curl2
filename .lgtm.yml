@@ -3,7 +3,7 @@ extraction:
     prepare:
       packages:
         - libssl-dev
-      after_paepare:
+      after_prepare:
         - rm -f CMakeLists.txt
         - ./buildconf
       configure:
